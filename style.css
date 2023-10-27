@@ -1,0 +1,113 @@
+/*Colors and fonts*/
+
+body{
+  background-color: rgb(210, 224, 251);
+  color: rgb(150, 126, 118);
+  font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">;
+  font-size: 16pxl;
+}
+
+h1, h2, h3 {
+  font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+}
+
+h1 {
+  color: rgb(12, 53, 106);
+  font-weight: 1000;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+h2 {
+  color: rgb(12, 53, 106);
+  font-size: 24px;
+  font-weight: 1000;
+}
+a {
+  text-decoration: none;
+  color: rgb(200, 174, 125);
+  font-weight: bold;
+  font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">;
+}
+a:hover {
+  color: rgb(20, 30, 70);
+  font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">;
+}
+
+div {
+  background-color: white;
+  border: 5px black border;
+  margin: 10px;
+}
+
+
+/* Custom design with class */
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  background-color: rgb(210, 224, 251);
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(142, 172, 205);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 100%;
+}
+.btn-blue {
+  background-color: rgb(200, 174, 125);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: rgb(20, 30, 70);
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
